@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  tools:
+    build:
+      context: .
+      dockerfile: ./docker/tools/Dockerfile
+    command: tail -f /dev/null
+    volumes:
+      - ./:/opt/app:cached

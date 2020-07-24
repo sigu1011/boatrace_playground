@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "jake"
+version = "0.1.0"
+description = ""
+authors = ["sigu1011 <52273288+sigu1011@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.6.3"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.7.9"
+isort = "^4.3.21"
+mypy = "^0.761"
+pytest = "^5.3"
+pytest-cov = "^2.8.1"
+yamllint = "^1.20.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
